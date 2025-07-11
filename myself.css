@@ -1,0 +1,170 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+/* Header */
+header {
+    background-color: #1e3a5f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #34587c;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #1e3a5f;
+}
+
+/* About Section */
+#about img {
+    display: block;
+    margin: 15px 0;
+    border: 3px solid #ddd;
+    border-radius: 50%;
+}
+
+#about ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#about li {
+    margin-bottom: 6px;
+}
+
+/* Projects Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+thead {
+    background-color: #1e3a5f;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0f4f8;
+}
+
+tbody tr:hover {
+    background-color: #e1ecf4;
+}
+
+/* Contact Details Section */
+#contact ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#contact li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+#contact a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: #023e8a;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #add8ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    section {
+        margin: 20px 15px;
+    }
+
+    table th, table td {
+        font-size: 0.95rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
