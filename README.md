@@ -21,5 +21,5 @@ This is a responsive and interactive personal portfolio website built using HTML
 3. No server required – it's a static site
 
 ## Contact
-Meghana Arthimalla   
-🔗[LinkedIn](https://www.linkedin.com/in/meghana-arthimalla-8187a4289)
+Panthula Venkata Krishna Sai Pranav
+🔗[LinkedIn](www.linkedin.com/in/venkata-krishna-sai-pranav-panthula-2a2a50291)
