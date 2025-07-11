@@ -46,7 +46,7 @@ Welcome to my personal portfolio website! This website serves as a digital resum
 ## 🙋 About Me
 
 **Name**: Panthula Venkata Krishna Sai Pranav  
-**DOB**: 21st October 2004  
+**DOB**: 2 July 2006 
 **Email**: pranavpamthula21@gmail.com  
 **Phone**: +91 70954 90726  
 **Location**: Andhra Pradesh, India  
